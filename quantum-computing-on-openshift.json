@@ -1,0 +1,11 @@
+{
+  "title": "Quantum Computing on OpenShift",
+  "icon": "fa-openshift",
+  "courses": [
+    {
+      "external_link": "https://learn.openshift.com/playgrounds/openshift311/",
+      "course_id": "quantum-computing-on-openshift",
+      "title": "Quantum Computing on OpenShift"
+    }
+  ]
+}
