@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Playground (OpenShift 4.6)",
+    "title": "Qiskit Operator(OpenShift 4.6)",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -10,14 +10,21 @@
     },
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
+        "dashboards": [
+            {
+                "name": "Console",
+                "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"
+            }
+        ],
         "uilayout": "terminal-iframe"
     },
     "details": {
-        "steps": [{
-            "title": "OpenShift Playground",
-            "text": "tips.md"
-        }],
+        "steps": [
+            {
+                "title": "OpenShift Playground",
+                "text": "tips.md"
+            }
+        ],
         "intro": {
             "code": "set-env.sh",
             "text": "intro.md"
